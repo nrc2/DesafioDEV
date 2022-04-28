@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #5940f0, #30C3D9);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px#1c77858c;
+    width: 550px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #D9309A;
+    text-align: center;
+    text-shadow: 1px 1px 2px #751a548f;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    text-shadow: 1px 1px 2px #751a548f;
+
+}
+
+h3 {
+    color: #eed814;
+    text-shadow: 1px 1px 2px #751a548f;
+    position: relative;
+    padding: 4px;
+    background-color: #5940f0;
+    border-radius: 10px;
+}
+
+h3:hover {
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+}
+
+p {
+    text-align: center;
+}
+
+div.a {
+    text-align: justify;
+
+
+}
+
+div.b {
+    text-align: center;
+    transition: all 0.5s ease;
+
+
+}
+
+div.b:hover {
+    top: -10px;
+    box-shadow: 0 10px 10px #666;
+    border-radius: 10px;
+}
+
+picture {
+    transition: all 0.5s ease;
+}
+
+picture:hover {
+    transform: rotate(180deg);
+}
+
+div.small {
+    text-align: center;
+}
+
+
